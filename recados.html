@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/recados.css">
+</head>
+<body>
+    <header>
+        <button id="btn-logout">Logout</button>
+    <div>
+        <h1>Meus Recados</h1>
+        <hr>
+        <br>
+        <input type="text" placeholder="Descrição" id="des" class="box1">
+        <input type="text" placeholder="Detalhamento" id="det" class="box2">
+        <button type="button" id="btn-salvar">Salvar</button>
+    </div>
+    </header>
+    <main>
+        <p id="semRecados">Crie seu Primeiro Recado</p>
+        <div id="tabelinha">
+        <table id="tabela" style="display: none;">
+            <thead id="row">
+                <tr>
+                    <td class="linhas">#</td>
+                    <td class="linhas">Descrição</td>
+                    <td class="linhas">Detalhamento</td>
+                    <td class="linhas">Ação</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+           
+            </tbody>
+        </table>
+        </div>
+    </main>
+    <script src="./js/recado.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin-left: 25px;
+    background-color: #5f51fb;
+    background-image: linear-gradient(45deg, #5f51fb, white);
+    /*    animation: name;
+        animation-duration: 10s;
+        animation-iteration-count: infinite; */
+}
+/* @keyframes name{
+    0%{
+        background-color: #5f51fb;
+    }
+    25%{
+        background-color: rgba(57, 223, 15, 0.479);
+    }
+    50%{
+        background-color: rgb(226, 172, 128);
+    }
+    75%{
+        background-color: gray;
+    }
+    100%{
+        background-color: azure;
+    }
+} */
+
+
+.box1{
+    width: 400px;
+    padding: 0.5em;
+    margin-right: 20px;
+}
+.box2{
+    width: 700px;
+    padding: 0.5em;
+}
+#btn-salvar{
+    padding: 0.6em;
+    width: 100px;
+    background-color: #5f51fb;
+    margin-left: -4px;
+    border:#5f51fb 1px solid;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+#tabela{
+    width: 50vw;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+.linhas{
+    border-bottom: 1px solid #202328;
+    border-top: 0.5px solid #202328;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    font-weight: 600;
+    margin: 200px;
+}
+#btn-apagar{
+   padding: 10px;
+   background-color: #5f51fb;
+   color:white;
+   border:#5f51fb 1px solid;
+   border-radius: 5px;
+   margin-top: 5px;
+}
+#btn-editar{
+   padding: 10px;
+   background-color: #5f51fb;
+   color:white;
+   border:#5f51fb 1px solid;
+   border-radius: 5px;
+ 
+}
+ 
+h1{
+margin-top: 20px;
+margin-left: 8px;
+margin-bottom: 15px;
+font-weight: 600;
+}
+#btn-logout{
+    padding: 10px;
+    background-color: #5f51fb;
+    color:white;
+    border:#5f51fb 1px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+    position: absolute;
+    right: 0px;
+}
+#tabelinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
