@@ -40,7 +40,7 @@ function imprimirMensagem(){
         document.querySelector("#tabela").style.display="none"
     }else{
         document.querySelector("#semRecados").style.display="none"
-        document.querySelector("#tabela").style.display="block"
+        document.querySelector("#tabela").style.display="table"
         let tbody=document.querySelector("#tbody")
     tbody.innerHTML=""
     const findRecados=recados.filter((recado)=>recado.userId===userDb)

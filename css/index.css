@@ -14,49 +14,40 @@
     position: absolute;
       width: 100vw;
       height: 100vh;
+      
+      
+      
       }
-   form{
-      width: 400px;
-      margin: 200px auto;
-      text-align: center;
-   }
+
+
+
+
+      form{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+  
    p{
       padding-top: 1em;
       font-size: 22px;
+      color:aliceblue
    }
    input{
       display: block;
       margin: 10px auto;
-      width: 400px;
-      height: 30px;
-      padding: 20px;
+
       text-align: center;
       border: 1px solid #4ab354;
       border-radius: 11px;
       box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
    }
    
-   #box1{
-      position: relative;
-      float: left;
-      width: 50%;
-      height: 60vh;
-      
-   }
-   #box2{
-      position: relative;
-      float: right;
-      width: 50%;
-      height: 100vh;
-   
-      left: -12vw;
-     
-   }
-  
+
    
    #btn-enviar{
-      width: 400px;
-      height: 50px;
+
       border-radius: 10px;
       border:none;
       background-color:#4ab354;
@@ -65,14 +56,44 @@
       box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
       font-weight: 600;
    }
-   img{
-      height: 100vh;
-   }
+
    a:hover{
-      color: #f11717;
+      color: #2ad41b;
    }
    a{
       text-decoration: none;
-      color: #370c5fab;
+      color: #35f50eab;
    }
 
+  main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   background: rgb(1,8,2);
+background: -moz-radial-gradient(circle, rgba(1,8,2,1) 13%, rgba(230,68,191,1) 46%, rgba(61,251,12,0.7343312324929971) 72%, rgba(6,2,17,1) 99%);
+background: -webkit-radial-gradient(circle, rgba(1,8,2,1) 13%, rgba(230,68,191,1) 46%, rgba(61,251,12,0.7343312324929971) 72%, rgba(6,2,17,1) 99%);
+background: radial-gradient(circle, rgba(1,8,2,1) 13%, rgba(230,68,191,1) 46%, rgba(61,251,12,0.7343312324929971) 72%, rgba(6,2,17,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010802",endColorstr="#060211",GradientType=1);
+
+
+
+   /*  */
+   }
+
+   .sucess{
+      background: rgb(0,98,15);
+background: -moz-radial-gradient(circle, rgba(0,98,15,1) 13%, rgba(99,230,68,1) 46%, rgba(61,251,12,0.7343312324929971) 72%, rgba(5,75,2,1) 99%);
+background: -webkit-radial-gradient(circle, rgba(0,98,15,1) 13%, rgba(99,230,68,1) 46%, rgba(61,251,12,0.7343312324929971) 72%, rgba(5,75,2,1) 99%);
+background: radial-gradient(circle, rgba(0,98,15,1) 13%, rgba(99,230,68,1) 46%, rgba(61,251,12,0.7343312324929971) 72%, rgba(5,75,2,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00620f",endColorstr="#054b02",GradientType=1);
+   }
+   .failed{
+      background: rgb(98,0,0);
+background: -moz-radial-gradient(circle, rgba(98,0,0,1) 21%, rgba(231,0,0,1) 46%, rgba(226,3,3,1) 69%, rgba(75,2,2,1) 87%);
+background: -webkit-radial-gradient(circle, rgba(98,0,0,1) 21%, rgba(231,0,0,1) 46%, rgba(226,3,3,1) 69%, rgba(75,2,2,1) 87%);
+background: radial-gradient(circle, rgba(98,0,0,1) 21%, rgba(231,0,0,1) 46%, rgba(226,3,3,1) 69%, rgba(75,2,2,1) 87%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#620000",endColorstr="#4b0202",GradientType=1);
+   }
